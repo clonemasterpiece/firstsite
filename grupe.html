@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> TK Koloseum </title>
+		<meta name="author" content="Stefanovski Bojan"/>
+		<meta name="description" content="Portfolio website about wd Bojan"/>
+		<meta name="keywords" content="HTML, CSS, HTML5, CSS3, XML, portfolio"/>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+	<!-- header start -->
+	
+		<header id="topHeader">
+			<div id="logo">
+				<a href="index.html"><img src="images/logologo.jpg" alt="logo"/></a>
+			</div>
+			<nav id="topMeni">
+				<ul>
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="vesti.html">Vesti</a></li>
+					<li><a href="tekvondo.html">O Tekvondou</a></li>
+					<li class="active"><a href="#">Pridruži se</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+				</ul>
+			</nav>
+			<div class="cleaner">
+			</div>
+		</header>
+	<!-- header end; main start -->
+	
+		<div id="main">
+			<section id="podaci">
+				<header>
+					<h3>Postanite član našeg tima </h3>
+					<p> Ukoliko želite da postanete član našeg kluba i trenirate sa vrhunskim trenerima po programu napravljenom samo za vas, popunite formular dole ,a mi ćemo Vam se javiti sa predloženim terminom treninga i savetom za početnike. Treninzi se odvijaju ponedeljkom sredom i petkom u 3 termina! Sportski pozdrav! </p>
+				</header>
+				<form action="#" method="post" name="forma">
+					<table>
+						<tr>
+						   <td class="input">Ime i prezime:</td>
+						   <td><input type="text" class="text-box"   name="imePrezime" placeholder="Pera Peric" required /><span class="zvezdica">*</span></td>
+						</tr>
+						<tr>
+							<td class="input">JMBG:</td>
+							<td><input type="number" class="text-box"  name="jmbg" placeholder="pr. 2207999850147" required /><span class="zvezdica">*</span></td>
+						</tr>
+						<tr>
+							<td class="input">Datum rođenja:</td>
+							<td><input type="date" class="text-box"  required /><span class="zvezdica">*</span></td>
+						</tr>
+						<tr>
+							<td class="input">Kontakt telefon:</td>
+							<td><input type="phone" class="text-box"  placeholder="pr. 013-123-456" name="phone"/><span class="zvezdica">*</span></td>
+						</tr>
+						<tr>
+							<td class="input">Kontakt email:</td>
+							<td><input type="email" class="text-box"  placeholder="peraperic@email.com" name="mail"/></td>
+						</tr>
+						<tr>
+							<td class="input">Željena grupa:</td>
+							<td>
+								<select class="padajuca"  name="grupa">
+									<option value="0">Izaberi...</option>
+									<option value="prva">Početnička grupa (19h)</option>
+									<option value="druga">Napredna grupa (20h)</option>
+									<option value="treca">Takmičarska grupa (21h)</option>
+								</select>
+							</td>
+						</tr>						
+						<tr>
+							<td class="input">Pol:</td>
+							<td>
+								<input type="radio" name="pol"  value="M" /> Muški<br/>
+								<input type="radio" name="pol"  value="M" /> Ženski<br/>
+							</td>
+							<td><span class="zvezdica">*</span>
+						</tr>
+						<tr>
+							<td> Dodatno: </td>
+							<td><textarea cols="30" rows="10" name="textpolje" placeholder="Napišite nešto o sebi kao npr. da li ste nešto trenirali ranije, koju školu idete, da li poznajete nekog iz našeg kluba..."></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+								<input type="submit" value="Pošalji"  name="salji"/>
+								<input type="reset" value="Poništi"  name="resetuj"/>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td rowspan="2"> Polja pored kojih stoji * se moraju popuniti! </td>
+						</tr>
+					</table>
+				</form>
+			
+			</section>
+		</div>
+	<!-- main end; footer start -->
+	
+		<footer id="botFooter">
+			<nav id="navBot2">			<!-- levi meni -->
+				<ul>
+					<li class="klasa2"><a href="index.html">Početna</a></li>
+					<li class="klasa2"><a href="vesti.html">Vesti</a></li>
+					<li class="klasa2"><a href="tekvondo.html">O tekvondou</a></li>
+					<li class="klasa2"><a href="#">Pridruži se</a></li>
+					<li class="klasa2"><a href="contact.html">Kontakt</a></li>
+				</ul>
+			</nav>
+			<nav id="navBot">			<!-- desni meni -->
+				<ul>
+					<li class="klasa"><a href="https://www.facebook.com/tkdkoloseum/"><i class="fa fa-facebook-square facebook" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="http://www.instagram.com/tkdkoloseum"><i class="fa fa-instagram instagram" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="https://twitter.com/"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="https://plus.google.com/"><i class="fa fa-google-plus googlePlus" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="mailto:tkdkoloseum@gmail.com"><i class="fa fa-envelope email" aria-hidden="true"></i></a></li>
+				</ul>
+			</nav>
+			<div class="cleaner"></div>
+			<footer id="footerFootera">
+				<p> copyright&copy; by Stefanovski Bojan </p>
+				<p> <mark> e-mail </mark> &nbsp;: stefanovski&#46;bojan&#64;gmail&#46;com </p>
+			</footer>
+		</footer>
+	<!-- footer end -->
+	
+	</body>
+</html>

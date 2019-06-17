@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+ <rss version="2.0">
+	 <channel>
+		 <item>
+			 <title>Novi majstori u klubu</title>
+			 <description>Marko Andonovski i Nemanja Dejanović, uspešno su polagali za majstorska zvanja </description>
+			 <link>http://sajtovistudenata.ict.edu.rs/165_17/vesti.html</link>
+		 </item>
+		 <item>
+			 <title>Uspeh naših takmičara na Balkanskom prvenstvu</title>
+			 <description>Naši takmičari ostvarili su vrhunski rezultat na Balkanskom Prvenstvu u Turskoj. </description>
+			 <link>http://sajtovistudenata.ict.edu.rs/165_17/vesti.html</link>
+		 </item>		 
+	 </channel>
+ </rss> 

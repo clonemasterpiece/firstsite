@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> TK Koloseum </title>
+		<meta name="author" content="Stefanovski Bojan"/>
+		<meta name="description" content="Portfolio website about wd Bojan"/>
+		<meta name="keywords" content="HTML, CSS, HTML5, CSS3, XML, portfolio"/>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+	<!-- header start -->
+	
+		<header id="topHeader">
+			<div id="logo">
+				<a href="index.html"><img src="images/logologo.jpg" alt="logo"/></a>
+			</div>
+			<nav id="topMeni">
+				<ul>
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="vesti.html">Vesti</a></li>
+					<li><a href="tekvondo.html">O Tekvondou</a></li>
+					<li><a href="grupe.html">Pridruži se</a></li>
+					<li class="active"><a href="#">Kontakt</a></li>
+				</ul>
+			</nav>
+			<div class="cleaner">
+			</div>
+		</header>
+	<!-- header end; main start -->
+	
+		<div id="main">
+			<section id="kontakti">
+			
+				<header>
+					<h2> KONTAKT </h2>
+					<p> Treninzi se odvijaju ponedeljkom, sredom i petkom u terminima od 19h, 20h i 21h. Za više informacija pozovite nekog od trenera ili nas posetite u terminima treninga! </p>
+				</header>
+				<article>
+					<header>
+						<h3> Milenko Nestorov </h3>
+						<h4> Trener </h4>
+					</header>
+						<img src="images/trener1.jpg" alt="Muki"/>
+					<figcaption title="broj telefona">  Tel: 06666666  </figcaption>
+					<figcaption title="Milenko Nestorov- facebook">  <a href="https://www.facebook.com/milenko.nestorov">facebook </a> </figcaption>
+					
+				</article>
+				<article>
+					<header>
+						<h3> Zoran Milošević </h3>
+						<h4> Trener </h4>
+					</header>
+						<img src="images/trener2.jpg" alt="Zoki"/>
+						<figcaption title="broj telefona">  Tel: 06666666  </figcaption>
+						<figcaption title="Zoran Milosevic- facebook">  <a href="https://www.facebook.com/zoran.miloshevic">facebook </a> </figcaption>
+					
+				</article>
+				
+			</section>
+			<section>
+				<article>
+				<header>
+					<p> Možete nas naći na adresi SVETOG SAVE 59g u toku termina treninga</p>
+				</header>
+					<div id="map"></div>
+					<script>
+
+					  function initMap() {
+						var myLatLng = {lat: -25.363, lng: 131.044};
+
+						var map = new google.maps.Map(document.getElementById('map'), {
+						  zoom: 4,
+						  center: myLatLng
+						});
+
+						var marker = new google.maps.Marker({
+						  position: myLatLng,
+						  map: map,
+						  title: 'Hello World!'
+						});
+					  }
+					</script>
+					<script async defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOI3njOW73cJEXGwHPFpFIoshmT5IPknw&callback=initMap">
+					</script>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.360310130884!2d20.640888315603526!3d44.875315979098296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDUyJzMxLjEiTiAyMMKwMzgnMzUuMSJF!5e0!3m2!1ssr!2srs!4v1512686088904" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</article>
+			</section>
+		</div>
+	<!-- main end; footer start -->
+	
+		<footer id="botFooter">
+			<nav id="navBot2">			<!-- levi meni -->
+				<ul>
+					<li class="klasa2"><a href="index.html">Početna</a></li>
+					<li class="klasa2"><a href="vesti.html">Vesti</a></li>
+					<li class="klasa2"><a href="tekvondo.html">O tekvondou</a></li>
+					<li class="klasa2"><a href="grupe.html">Pridruži se</a></li>
+					<li class="klasa2"><a href="#">Kontakt</a></li>
+				</ul>
+			</nav>
+			<nav id="navBot">			<!-- desni meni -->
+				<ul>
+					<li class="klasa"><a href="https://www.facebook.com/tkdkoloseum/"><i class="fa fa-facebook-square facebook" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="http://www.instagram.com/tkdkoloseum"><i class="fa fa-instagram instagram" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="https://twitter.com/"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="https://plus.google.com/"><i class="fa fa-google-plus googlePlus" aria-hidden="true"></i></a></li>
+					<li class="klasa"><a href="mailto:tkdkoloseum@gmail.com"><i class="fa fa-envelope email" aria-hidden="true"></i></a></li>
+				</ul>
+			</nav>
+			<div class="cleaner"></div>
+			<footer id="footerFootera">
+				<p> copyright &copy; by Stefanovski Bojan </p>
+				<p> <mark> e-mail </mark> &nbsp;: stefanovski&#46;bojan&#64;gmail&#46;com </p>
+			</footer>
+		</footer>
+	<!-- footer end -->
+	
+	</body>
+</html>

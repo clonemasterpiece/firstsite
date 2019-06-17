@@ -1,0 +1,286 @@
+@font-face{
+	src: url('fontJedan.ttf');
+	font-family: 'fontJedan';
+}
+body {
+	font-family: 'fontJedan';
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.cleaner {
+	clear: both;
+}
+a:hover {
+	font-size: 20px;
+	color; #f9c61d;
+}
+.active {
+	font-size:20px;
+	color; #f9c61d;
+	text-decoration: underline;
+}
+
+/* -------------------------------- start --------------------------------------*/
+
+#topHeader {
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	margin: 0px auto;
+	/*position: fixed;*/
+	border-bottom: 2px solid #000;
+	z-index: 2;
+}
+#logo{
+	width: 200px;
+	height: 100px;
+	float: left;
+	background-color: #f2f2f2;
+	margin-left: 40px;
+}
+#logo img{
+	width: 300px;
+	height: 100px;
+}
+#topMeni{
+	height: 100px;
+	width: 800px;
+	float: right;
+}
+#topMeni ul {
+	list-style-type: none;
+	padding-top: 36px;
+
+	display: flex;
+  	flex-direction: row; 
+  	justify-content: space-around; 
+}
+#topMeni ul li a {
+	text-decoration: none;
+}
+#main {
+	width: 1100px;
+	min-height: 500px;
+	margin: 0px auto;
+}
+#slider {
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/teamslider.jpg');
+	background-repeat: no-repeat;
+}
+#homeNaslov {
+	position: relative;
+}
+#homeNaslov header {
+	width: 400px;
+	height: 180px;
+	position: absolute;
+	right: 10px;
+	top: 280px;
+	color: #fff;
+	background-color: rgba(65, 112, 193, 0.3);
+	font-size: 40px;
+	text-align: center;
+}
+
+
+/* pocetak vesti */
+
+#vesti {
+	text-align: center;
+	width: 1200px;
+	padding: 20px 0px;
+	margin: 0px auto;
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+#vesti header {
+	width: 100%;
+}
+#vesti h2 {
+	font-size: 55px;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px #c2c2c2;
+}
+#vesti .article {
+	width: 300px;
+	height: auto;
+	margin-bottom: 35px;
+	margin-left: 40px;
+	font-size: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#vesti .article p{
+	font-size: 16px;
+	text-align: left;
+}
+#vesti .article figcaption {
+	margin-bottom: 5px;
+}
+#vesti .article a{
+	text-decoration: none;
+}
+
+
+/* kraj vesti */
+
+/* tekvondo artikli ( o tekvondou.html ) */
+
+
+#tekvondo header h2{
+	font-size: 40px;
+	text-align:center;
+}
+#tekvondo .tekvondoArtikal {
+	width:100%;
+	height:auto;
+	border-bottom: 1px solid #c2c2c2;
+	padding: 15px 0px;
+}
+#tekvondo .tekvondoArtikal iframe {
+	align: center;
+}
+#tekvondo .tekvondoArtikal figcaption {
+	text-align:center;
+	font-size: 12px;
+}
+#tekvondo footer {
+	text-align: right;
+	padding-bottom: 80px;
+}
+
+/* forma forma forma */
+
+#podaci {
+	background: -webkit-linear-gradient(top, rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%);
+}
+/*-- Ovo sam pronasao onine, nisam sam pravio --*/
+#podaci table{
+	margin: 10px auto;
+	padding: 20px 0px;
+}
+#podaci table td {
+	padding-bottom: 10px;
+}
+#podaci h3 {
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#podaci p {
+	width: 60%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#podaci form input, #podaci form select {
+	font-size: 20px;
+}
+
+
+/* pocetak kontakti*/
+
+#kontakti {
+	text-align: center;
+	width: 1200px;
+	padding: 20px 0px;
+	margin: 0px auto;
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+#kontakti h2 {
+	text-align: center;
+	font-size: 40px;
+	padding: 15px 0px;
+}
+#kontakti h4 {
+	color: #fce24e;
+}
+#kontakti header {
+	padding: 10px 0px;
+}
+#kontakti article figcaption a {
+	text-decoration: none;
+}
+#kontakti article figcaption a:hover {
+	font-size: normal;
+}
+
+/* pocetak footera */
+
+#botFooter {
+	width: 100%;
+	height: 120px;
+	margin: 0px auto;
+	background-color: #3c424c;
+	border-top: 2px solid black;
+}
+#navBot2{
+	height: 70px;
+	width: 400px;
+	float: left;
+	margin-left: 80px;
+	font-size: 11px;
+}
+#navBot2 ul {
+	list-style-type: none;
+	padding-top: 10px;
+	margin-left: 5px;
+}
+#navBot2 ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+#navBot2 ul li a {
+	text-decoration: none;
+	color: white;
+}
+#navBot ul {
+	list-style-type: none;
+	float: right;
+	padding-top: 20px;
+	margin-right: 70px;
+}
+#navBot ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+#navBot ul li a {
+	text-decoration: none;
+}
+#footerFootera {
+	margin-top: 13px;
+	font-size: 14px;
+}
+#footerFootera p {
+	text-align: center;
+}
+#footerFootera mark {
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+}
+.klasa {
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: rgba(95, 100, 109, 1.5);
+	margin-top: 15px;
+	text-align: center;
+	font-size: 135%;
+}
+.klasa i {
+	padding-top: 5px;
+}
+.rssbutton {
+	color: #e87902;
+}
